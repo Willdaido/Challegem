@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia de Textos</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+
+    <h1>Criptografia de Textos</h1>
+    
+    <!-- Campo de entrada do texto -->
+    <textarea id="input-text" placeholder="Digite seu texto aqui..."></textarea>
+
+    <!-- Botões de ação com imagens -->
+    <div class="buttons">
+        <button id="encrypt-btn" title="Criptografar">
+            <img src="criptografar.PNG" alt="Criptografar">
+        </button>
+        <button id="decrypt-btn" title="Descriptografar">
+            <img src="botao-descrip.PNG" alt="Descriptografar">
+        </button>
+        <button id="copy-btn" title="Copiar">
+            <img src="btn-cp.PNG" alt="Copiar">
+        </button>
+    </div>
+
+    <!-- Área para exibir o resultado -->
+    <div id="output-area">
+        <img id="placeholder-image" src="imagem-inicial.png" alt="Imagem inicial">
+        <textarea id="output-text" placeholder="O resultado aparecerá aqui..." readonly style="display: none;"></textarea>
+    </div>
+
+    <!-- Rodapé com os dados do desenvolvedor -->
+    <footer>
+        <p>Desenvolvido por William Alves Porto da Silva</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>
